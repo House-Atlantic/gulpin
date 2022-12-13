@@ -4,5 +4,7 @@ require_relative "gulpin/version"
 
 module Gulpin
   class Error < StandardError; end
-  # Your code goes here...
+  def self.dis_dika
+    "Dis Dika"
+  end
 end

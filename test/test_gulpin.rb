@@ -7,7 +7,7 @@ class TestGulpin < Minitest::Test
     refute_nil ::Gulpin::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_dis_dika
+    assert_equal(Gulpin::dis_dika, "Dis Dika")
   end
 end
